@@ -1,0 +1,14 @@
+{
+  "name": "dodgy-daves",
+  "module": "app.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1"
+  }
+}

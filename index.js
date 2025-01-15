@@ -83,15 +83,7 @@ async function fetchReport(data) {
             dangerouslyAllowBrowser: true
         })
         const response = await openai.chat.completions.create({
-/** 
- * Challenge:
- * 1. Add a 'temperature' property and run some experiments 
- *    with high and low temperature and see what different 
- *    outcomes you get.
- * 
- * ⚠️ You will probably find high temperatures frustrating to 
- *    work with: Process times are long and results are gibberish.    
- **/
+            
             model: 'gpt-4',
             messages: messages,
 			temperature: 1.5
